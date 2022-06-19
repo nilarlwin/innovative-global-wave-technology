@@ -1,0 +1,1060 @@
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Innovative Global Wave Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/metisMenu.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- amchart css -->
+    <!-- <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" /> -->
+    <!-- others css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/data-table/datatable.css">
+    <!-- jQuery --> 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="assets/css/select2.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+   <style>
+    .searchBtn:hover {
+    background-color: aliceblue;
+    color: rgb(85, 50, 117);
+    }
+    #items {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #items td,
+    #items th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    #items tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    #items tr:hover {
+    background-color: #ddd;
+    }
+   #items th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(133, 98, 166);
+   color: white;
+   }
+   </style>
+</head>
+
+ <body>
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- preloader area end -->
+    <!-- page container area start -->
+<div class="page-container">
+    <!-- sidebar menu area start -->
+    <div class="sidebar-menu">
+        <div class="sidebar-header">
+            <div class="logo">
+                <h1>
+                    <a href="index.php" class="navbar-brand text-light">Dashboard</a>
+                </h1>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="menu-inner">
+                <nav>
+                    <ul class="metismenu" id="menu">
+                        <ul class="metismenu" id="menu">
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="fa fa-shopping-basket"></i><span>Items</span></a>
+                                <ul class="collapse">
+                                    <li><a href="items.php">Add</a></li>
+                                    <li><a href="itemList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-credit-card"></i><span>Sale &
+                                        Service</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./sale&Service.php">Add</a></li>
+                                    <li><a href="./saleList.php">Sale List</a></li>
+                                    <li><a href="./servicesList.php">Service List</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-credit-card"></i><span>Sale</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./Sale.php">Add</a></li>
+                                    <li><a href="./saleList.php">List</a></li>
+                                </ul>
+                            </li> -->
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-dashboard"></i><span>Service</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./services.php">Add</a></li>
+                                    <li><a href="./servicesList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-user"></i><span>Customer</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./customer.php">Add</a></li>
+                                    <li><a href="./customerList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-shopping-cart-full"></i><span>Purchase</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./purchase.php">Add</a></li>
+                                    <li><a href="./purchaseList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-stats-up"></i><span>General
+                                        Cost</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./gnCost.php">Add</a></li>
+                                    <li><a href="./gnCostList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-na"></i><span>Usage
+                                        Items</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./usageItem.php">Add</a></li>
+                                    <li><a href="./usageItemList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-id-badge"></i><span>User</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./user.php">Add</a></li>
+                                    <li><a href="./userList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-face-smile"></i><span>Staff</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./staff.php">Add </a></li>
+                                    <li><a href="./staffList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-money"></i><span>Salary</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./salary.php">Add </a></li>
+                                    <li><a href="./salaryList.php">List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-home"></i><span>Counter</span></a>
+                                <ul class="collapse">
+                                    <li><a href="./counter.php">Add</a></li>
+                                    <li><a href="./counterList.php">Counter List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-home"></i><span>Reports</span></a>
+                                <ul class="collapse">
+                                    <!-- <li><a href="./purchase-report.php">Purchase Report</a></li> -->
+                                    <li><a href="./inventory.php">Inventory</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar menu area end -->
+    <!-- main content area start -->
+    <div class="main-content">
+        <!-- header area start -->
+        <div class="header-area py-1">
+            <div class="row align-items-center">
+                <!-- nav and search button -->
+                <div class="col-sm-6">
+        
+                    <div class="breadcrumbs-area clearfix d-flex justify-content-start align-items-center">
+                        <div class="nav-btn pull-left my-auto">
+                            <i class="fa fa-bars fw-bolder" style="color:#7801ff;"></i>
+                        </div>
+                        <script>
+                        </script>
+                        <h4 class="page-title pull-left">Dashboard</h4>
+                        <ul class="breadcrumbs pull-left">
+                            <li><a href="index.php">Home</a></li>
+                            <li><span>Dashboard</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 clearfix row d-flex justify-content-end align-items-center">
+                    <div class="user-profile  pull-right col-sm-11 d-flex justify-content-end pr-2">
+                        <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
+                        <h4 class="user-name text-dark dropdown-toggle" data-toggle="dropdown">admin <i
+                                class="fa fa-angle-down"></i></h4>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                    <ul class="notification-area pull-right col-sm-1 pr-0">
+                        <li id="full-view"><i class="fa fa-expand"></i></li>
+                        <li id="full-view-exit"><i class="fa fa-compress"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- header area end -->
+
+        <div class="main-content-inner">
+          <div class="mt-3 mb-2 d-flex align-items-end">
+             <div class="form-group row">
+                <label class="col-form-label">From Date:</label>
+                <div class="col-sm-8">
+                   <input type="date" class="form-control form-control-sm" />
+                 </div>
+             </div>
+             <div class="form-group row">
+                <label class="col-form-label">To Date:</label>
+                <div class="col-sm-8">
+                   <input type="date" class="form-control form-control-sm" />
+                 </div>
+             </div>
+             <div class="form-group row">
+                <div class="col-sm-12">
+                   <input type="submit" class="form-control form-control-sm btn btn-outline-secondary" value="Search" style="background-color:#5b597c; color:white;"/>
+                 </div>
+             </div>
+            </div>
+            <table class="table table-hover progress-table text-center" id="myTable">
+                <thead class="text-uppercase">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Brand</th>
+                        <th scope="col">Code</th>
+                        <th scope="col">Item Detail</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</th>
+                        <td>One</td>
+                        <td>Cano</td>
+                        <td>i00001</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem1"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</th>
+                        <td>Two</td>
+                        <td>Panasonic</td>
+                        <td>i00002</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem2"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</th>
+                        <td>Three</td>
+                        <td>Dell</td>
+                        <td>i00003</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem3"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</th>
+                        <td>Four</td>
+                        <td>Cano</td>
+                        <td>i00004</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem4"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</th>
+                        <td>Five</td>
+                        <td>Cano</td>
+                        <td>i00005</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem5"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</th>
+                        <td>Six</td>
+                        <td>Cano</td>
+                        <td>i00006</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem6"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</th>
+                        <td>Seven</td>
+                        <td>Cano</td>
+                        <td>i00007</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem7"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</th>
+                        <td>Eight</td>
+                        <td>Cano</td>
+                        <td>i00008</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem8"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</th>
+                        <td>Nine</td>
+                        <td>Cano</td>
+                        <td>i00009</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem9"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</th>
+                        <td>Ten</td>
+                        <td>Cano</td>
+                        <td>i000010</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem10"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11</th>
+                        <td>Eleven</td>
+                        <td>Cano</td>
+                        <td>i000011</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem11"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12</th>
+                        <td>Twelve</td>
+                        <td>Cano</td>
+                        <td>i000012</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem12"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>13</th>
+                        <td>Thirteen</td>
+                        <td>Cano</td>
+                        <td>i000013</td>
+                        <td><a href="" data-bs-toggle="modal" data-bs-target="#detailItem13"><span class="badge" style="background-color:#5b597c; color:white">See More</span></a></td>
+                        <td>
+                            <ul class="d-flex justify-content-center">
+                                <li class="mr-3"><a href="" class="text-secondary" data-bs-toggle="modal" data-bs-target="#editItem"><i class="fa fa-edit" style="color:#24041c;"></i></a>
+                                </li>
+                                <li><a href="#" class="text-danger"><i class="ti-trash" onclick="return confirm('Are you sure to delete this item')"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="mt-3">
+                <a href="#"
+                    class="btn btn-outline-secondary mt-auto ml-auto mb-2 col-sm-1 d-flex justify-content-center align-items-center">
+                    <i class="ti-plus mr-2 fw-bold"></i> Add
+                </a>
+            </div>
+        </div>
+        <!-- main content area end -->
+    </div>
+    <!-- footer area start-->
+
+    <!-- start edit modal-->
+    <div class="modal fade" id="editItem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Edit Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="">Item Name</label>
+                <input type="text" class="form-control"/>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Brand</label>
+                 <input class="form-control" type="text">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Code</label>
+                 <input class="form-control" type="text">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Unit</label>
+                 <input class="form-control" type="text">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Price</label>
+                 <input class="form-control" type="text">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Upload Image</label>
+                 <input class="form-control" type="file">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="">Remark</label>
+                 <textarea class="form-control" row="10" cols="10"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Update</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start edit modal-->
+
+     <!-- start detail modal-->
+     <div class="modal fade" id="detailItem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Brand</th>
+                      <th>Code</th>
+                      <th>Price</th>
+                      <th>Color</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item One</td>
+                      <td>Canon</td>
+                      <td>i00001</td>
+                      <td>500000</td>
+                      <td>Black</td>
+                      <td><img src="assets/images/item-images/camera.jpg"></td>
+                      <td>Panasonic DMC-FZ300K-(Black) USA</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Two</td>
+                      <td>i00002</td>
+                      <td>Pic</td>
+                      <td>50000</td>
+                      <td><img src="assets/images/item-images/external-hard-drive.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Three</td>
+                      <td>i00003</td>
+                      <td>Pic</td>
+                      <td>1100000</td>
+                      <td><img src="assets/images/item-images/laptop.jpg"></td>
+                      <td>Dell I7 10th Gen</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Four</td>
+                      <td>i00004</td>
+                      <td>Pic</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_1_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Five</td>
+                      <td>i00005</td>
+                      <td>Kuu</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_2_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Six</td>
+                      <td>i00006</td>
+                      <td>Kuu</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_3_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Seven</td>
+                      <td>i00007</td>
+                      <td>Kuu</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_4_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Eight</td>
+                      <td>i00008</td>
+                      <td>Kuu</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_4_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Nine</td>
+                      <td>i00009</td>
+                      <td>Kuu</td>
+                      <td>30000</td>
+                      <td><img src="assets/images/item-images/product_5_img.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Ten</td>
+                      <td>i000010</td>
+                      <td>Kuu</td>
+                      <td>150000</td>
+                      <td><img src="assets/images/item-images/watch.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Eleven</td>
+                      <td>i000011</td>
+                      <td>Kuu</td>
+                      <td>100000</td>
+                      <td><img src="assets/images/item-images/camera.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Twelve</td>
+                      <td>i000012</td>
+                      <td>Kuu</td>
+                      <td>50000</td>
+                      <td><img src="assets/images/item-images/external-hard-drive.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <!-- start detail modal-->
+    <div class="modal fade" id="detailItem13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table id="items">
+                    <tr>
+                      <th>Name</th>
+                      <th>Code</th>
+                      <th>Unit</th>
+                      <th>Price</th>
+                      <th>Image</th>
+                      <th>Remark</th>
+                    </tr>
+                    <tr>
+                      <td>Item Thirteen</td>
+                      <td>i000013</td>
+                      <td>Pic</td>
+                      <td>1500000</td>
+                      <td><img src="assets/images/item-images/laptop.jpg"></td>
+                      <td>This is good.....</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- start detail modal-->
+
+    <footer>
+        <div class="footer-area">
+            <p>© Copyright 2022. All right reserved. create by<a href=""> NLL</a>.
+            </p>
+        </div>
+    </footer>
+    <!-- footer area end-->
+    <!-- page container area end -->
+    <!-- jquery latest version -->
+    <!-- <script src="assets/js/vendor/jquery-2.2.4.min.js"></script> -->
+    <script src="assets/js/jqurey-3.6.0/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- start chart js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script> -->
+    <!-- start highcharts js -->
+    <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+    <!-- start zingchart js -->
+    <!-- <script src="https://cdn.zingchart.com/zingchart.min.js"></script> -->
+    <!-- <script>
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+    </script> -->
+    <!-- all line chart activation -->
+    <script src="assets/js/line-chart.js"></script>
+    <!-- all pie chart -->
+    <script src="assets/js/pie-chart.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript" charset="utf8" src="assets/data-table/datatable.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script> !-->
+    <script src="assets/js/select2.min.js"></script>
+    <script>
+$(document).ready(function() {
+    $('#myTable').DataTable();
+
+    $('.cus_check_btn').on('click', function() {
+        var cus_id = $(this).data('cus_id');
+        $('.sale_service_header').html(cus_id);
+    })
+});
+    </script>
+
+
+<script>
+    $(document).ready(function(){
+ 
+ // Initialize select2
+ $("#selItem").select2();
+
+ // Read selected option
+ $('#but_read').click(function(){
+   var username = $('#selItem option:selected').text();
+   var userid = $('#selItem').val();
+
+   $('#result').html("id : " + userid + ", name : " + username);
+
+ });
+});
+
+</script>
+
+</body>
+
+</html>
